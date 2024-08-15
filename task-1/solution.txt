@@ -1,0 +1,13 @@
+osc@osc:~$ mkdir Mariam
+osc@osc:~$ touch Mariam/one.txt Mariam/two.txt Mariam/three.txt Mariam/four.txt
+osc@osc:~$ mkdir Mariam/BAD
+osc@osc:~$ touch Mariam/BAD/bad.txt
+osc@osc:~$ mv Mariam/one.txt /home/osc/Downloads/
+osc@osc:~$ cp /home/osc/Downloads/one.txt /home/osc/Downloads/copy.txt
+osc@osc:~$ cd Mariam
+osc@osc:~/Mariam$ nano two.txt
+osc@osc:~/Mariam$ nano three.txt
+osc@osc:~/Mariam$ mv three.txt hallo.txt
+osc@osc:~/Mariam$ rm four.txt
+osc@osc:~/Mariam$ rm -r BAD
+
